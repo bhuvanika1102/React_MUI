@@ -53,7 +53,7 @@ const Sidebar = ({ activePage, setActivePage }) => {
   const sidebarBg =
     theme.palette.mode === "light"
       ? theme.palette.primary.main // blue in light mode
-      : theme.palette.background.paper; // dark mode uses paper
+      : theme.palette.background.paper; 
   const sidebarText =
     theme.palette.mode === "light"
       ? theme.palette.primary.contrastText // white on blue
